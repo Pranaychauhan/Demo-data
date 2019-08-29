@@ -1,0 +1,44 @@
+pragma solidity ^0.5.1;
+
+contract Bank {
+    
+    int bal;
+    
+    // int data type 
+    
+    constructor () public
+    
+    // in solidity constructor can be used only once , while accessmodifier is on right hand s
+    
+    {
+        
+        bal = 1 ;
+        
+    }
+    
+    function getBalance () view public returns (int) 
+    
+    // here function is used in which mehod is getBalance which is public 
+    
+    {
+        return bal;
+        
+    }
+    
+    function withdraw (int amt) public 
+    
+    {
+        bal = bal - amt ;
+        
+    }
+    
+    function deposit (int amt) public
+    
+    {
+        bal = bal + amt ;
+        
+    }
+    
+    
+}
+
