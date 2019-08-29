@@ -1,0 +1,21 @@
+Simple program to make public modifiers in smart contract
+
+pragma solidity ^0.5.1;
+contract crossboarder{
+string public fName = &quot;pranay&quot;;
+uint public age =34;
+}
+
+
+
+Simple program to print hello world
+
+
+pragma solidity ^0.5.0;
+contract HelloWorld {
+function helloWorld() external pure returns (string memory) {
+return &quot;Hello, World!&quot;;
+
+}
+
+}
