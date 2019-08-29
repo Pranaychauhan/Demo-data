@@ -1,0 +1,15 @@
+pragma solidity ^0.5.1;
+
+contract democontract {
+
+// single line comment
+
+/* multi line comment */
+
+
+string fname = 'pranay';
+
+uint age = 34;
+
+
+}
