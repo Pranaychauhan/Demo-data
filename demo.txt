@@ -1,0 +1,12 @@
+this is a simple progam for solidity language
+
+pragma solidity ^0.5.1;
+
+contract firstcontract {
+
+//this is a single line comment
+
+
+/% this is multi line comment /*
+
+}
